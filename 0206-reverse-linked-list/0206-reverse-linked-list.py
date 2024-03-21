@@ -6,6 +6,7 @@
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         slow = None
+        copy=None
         while head and head.next:
             copy =head.next
             head.next= slow 
