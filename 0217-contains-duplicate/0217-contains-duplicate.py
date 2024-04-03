@@ -2,7 +2,7 @@ class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         
         # Python set is Hashset, and allows O(1) Operations like Hashtables
-        hashtable = {}
+        hashtable = defaultdict(int)
         for i in range(len(nums)):
             if nums[i] in hashtable:
                 return True
