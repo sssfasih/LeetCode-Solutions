@@ -15,7 +15,6 @@ class Solution:
                 i+=1
                 j-=1
             else:
-                print(s[i].lower(),s[j].lower())
                 return False
             
         return True
