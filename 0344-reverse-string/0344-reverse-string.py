@@ -9,6 +9,3 @@ class Solution:
             a = s[i]
             s[i] = s[s_len-1-i]
             s[s_len-i-1] = a
-        
-        
-        return s
